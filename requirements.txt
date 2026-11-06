@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+chromadb
+pydantic>=2.0
+python-dotenv
+sentence-transformers
+streamlit-agraph

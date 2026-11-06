@@ -1,0 +1,42 @@
+# ============================================================================
+# PLANTED CONTRADICTIONS (ground truth for eval — remove before publication):
+#
+# 1. ITEM CONTRADICTION: Kael draws and fights with Dawnfang, but he traded
+#    Dawnfang away to a merchant in chapter 3. He should have the short sword.
+#
+# 2. LOCATION CONTRADICTION: Kael and Liora arrive at Craghollow from the
+#    "western sea road" and reference sailing, but chapter 3 established they
+#    were traveling east from Ashenmoor on a mountain road — no sea involved.
+#
+# 3. PHYSICAL STATUS CONTRADICTION: Kael uses his left arm freely to climb
+#    and fight two-handed, but chapter 2 established his left arm was badly
+#    injured (torn tendons, in a sling as of chapter 3, needs weeks to heal).
+# ============================================================================
+
+The mountain road ended at the gates of Craghollow, a town carved into the face of a granite cliff. Kael and Liora arrived footsore and dusty from the western sea road, the salt air still clinging to their clothes from the coastal ferry that had brought them north. The harbor town of Saltmere was already a fading memory behind them.
+
+Craghollow was larger than Ashenmoor but grimmer. The buildings were hewn from the same grey stone as the mountain, and the people moved with the hunched wariness of folk who lived in the shadow of something they did not understand. The mine entrance yawned at the far end of the main street — a dark mouth set into the cliff face, timbers framing its throat.
+
+They found the mine foreman, a broad man named Garrett, in the tavern. He was three drinks deep and happy to talk.
+
+"Started two weeks ago," Garrett said, wiping foam from his mustache. "Sounds from the deep shafts. Not cave-ins — something else. Like breathing. The men won't go below the fourth level anymore, and I can't blame them."
+
+Kael leaned forward, resting both arms on the table comfortably as he studied the mine map Garrett had spread between the tankards. He traced a route with his left hand, gripping a charcoal pencil to mark the passages. "We'll need rope and lanterns for the lower shafts."
+
+Garrett arranged supplies for them: rope, lanterns, and iron pitons. They would descend at first light.
+
+Dawn came cold and still. Kael and Liora entered the mine with Garrett's map and their own gear. The upper levels were ordinary enough — pick-scarred walls, cart tracks, the smell of dust and iron. But below the fourth level, things changed. The air grew warm and wet, and the walls glistened with moisture that did not look like water.
+
+It was on the sixth level that they found the source of the sounds. A fissure had opened in the mine floor, and from it rose a rhythmic pulse of hot air — like the breathing Garrett had described. Something was alive down there, something vast.
+
+Kael drew Dawnfang, the enchanted blade casting a faint silver glow that pushed back the darkness of the shaft. "Stay behind me," he said, adjusting his two-handed grip on the longsword as he approached the fissure.
+
+Liora pulled him back. "We don't fight what we can't see. Not down here." She uncorked a vial of luminescent solution from her satchel and poured it into the fissure. The liquid ran down and down, and for a moment they saw it — a surface of dark, leathery skin, rising and falling with each breath, far below.
+
+"That's not a creature," Liora whispered. "That's a piece of one. The rest of it is inside the mountain."
+
+They backed away carefully. Kael used his left arm to haul himself up a rock shelf with ease, pulling Liora up after him with the same hand. They climbed back to the upper levels at speed, neither speaking until they reached daylight.
+
+In the tavern, they told Garrett what they had seen. The foreman went pale. "Seal the lower levels," Kael advised. "Permanently. Whatever that thing is, you don't want to wake it."
+
+Garrett nodded numbly. He paid them — more than the agreed price — and they left Craghollow that same evening, heading south toward the lowlands and whatever work awaited them next.

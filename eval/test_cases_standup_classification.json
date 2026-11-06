@@ -1,0 +1,59 @@
+[
+  {
+    "id": "su_cls_01_premise",
+    "segment_number": 1,
+    "segment_text": "People who learn English as a second language are the smartest people on earth. I only speak English, and I'm barely pulling it off. The problem is, English isn't really a language. It's three other languages stacked in a trench coat pretending to be one.",
+    "expected_category": "new_premise",
+    "expected_premise_id_pattern": "english",
+    "description": "Segment 1 introduces the core premise about English being difficult. Should be classified as a NEW PREMISE since no prior premises exist."
+  },
+  {
+    "id": "su_cls_02_punchline",
+    "segment_number": 1,
+    "segment_text": "People who learn English as a second language are the smartest people on earth. I only speak English, and I'm barely pulling it off. The problem is, English isn't really a language. It's three other languages stacked in a trench coat pretending to be one. That's why none of the rules work. We aren't speaking, we're just guessing!",
+    "expected_category": "punchline",
+    "expected_target_premise_pattern": "english",
+    "description": "The 'three languages in a trench coat' line is the FIRST resolution of the English-is-hard premise. Should be a PUNCHLINE (not a tag or callback) since it resolves the premise for the first time."
+  },
+  {
+    "id": "su_cls_03_tag_same_segment",
+    "segment_number": 2,
+    "segment_text": "Look at our pronunciation. You have the word T-O-M-B. That's pronounced 'toom.' You have W-O-M-B. That is pronounced 'woom.' So obviously, B-O-M-B is 'boom,' right? No, it's 'bomb'! Why? Because English hates you. Whoever invented that word just dropped a bomb on the phonetics dictionary.",
+    "prior_premises": [{"premise_id": "p1_english_hard", "status": "resolved"}],
+    "expected_category": "tag",
+    "expected_target_premise_pattern": "pronunciation|english",
+    "description": "The 'dropped a bomb on the phonetics dictionary' line piggybacks on an already-established pronunciation premise within the same segment — should be a TAG, not a new premise."
+  },
+  {
+    "id": "su_cls_04_punchline_delayed",
+    "segment_number": 4,
+    "segment_text": "Plurals are even worse. If I have one car, I have a car. If I have two, I have cars. You just add an 'S'. Simple. But if I have one mouse, and I get another one... suddenly I have 'mice.' Where did the 'C' come from? Did the 'S' go into witness protection?",
+    "prior_premises": [{"premise_id": "p1_english_hard", "status": "resolved"}],
+    "expected_category": "punchline",
+    "expected_target_premise_pattern": "plural",
+    "description": "The 'S went into witness protection' is the FIRST resolution of the plurals-are-broken premise. Even though it appears in the same segment as the premise, it's a PUNCHLINE (first payoff), not a tag — the key test of punchline-vs-tag distinction."
+  },
+  {
+    "id": "su_cls_05_callback_resolved_premise",
+    "segment_number": 5,
+    "segment_text": "Hey man, I just bought a couple of hice on my block! Oh yeah? Watch out for the bomb.",
+    "prior_premises": [
+      {"premise_id": "p2_pronunciation_bomb", "status": "resolved"},
+      {"premise_id": "p3_plurals_mice", "status": "resolved"}
+    ],
+    "expected_category": "callback",
+    "expected_target_premise_pattern": "bomb|pronunciation",
+    "description": "The 'watch out for the bomb' line references the already-RESOLVED bomb/pronunciation premise from segment 2. This is a CALLBACK (not a punchline) because the target premise is already resolved. This is the critical punchline-vs-callback test case."
+  },
+  {
+    "id": "su_cls_06_callback_not_punchline",
+    "segment_number": 7,
+    "segment_text": "My absolute favorite is the word 'Queue.' Q-U-E-U-E. It means to wait in line. It's pronounced exactly like the letter 'Q'. Which means the last four letters are just literally waiting in line! Waiting to do what? Probably waiting to replace the 'S' in mice.",
+    "prior_premises": [
+      {"premise_id": "p3_plurals_mice", "status": "resolved"}
+    ],
+    "expected_category": "callback",
+    "expected_target_premise_pattern": "plural|mice",
+    "description": "The 'replace the S in mice' references the already-resolved plurals premise. Because the target is already resolved, this must be classified as a CALLBACK, not a punchline. Paired with su_cls_04 to test the specific punchline-vs-callback distinction."
+  }
+]

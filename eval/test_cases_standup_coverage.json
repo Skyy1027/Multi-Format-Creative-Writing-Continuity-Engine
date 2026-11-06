@@ -1,0 +1,8 @@
+[
+  {
+    "id": "su_cov_01",
+    "set_transcript_path": "data/sample_standup/set_01.txt",
+    "expected_abandoned_premise_ids": [],
+    "description": "TODO: user will specify which premise_ids should be flagged as abandoned after processing this full set"
+  }
+]

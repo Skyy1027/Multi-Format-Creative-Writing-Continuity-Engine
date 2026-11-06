@@ -1,0 +1,9 @@
+[
+  {
+    "id": "sp_01",
+    "draft_scene_number": null,
+    "draft_text_path": "data/sample_screenplay/scene_05.txt",
+    "expected_inconsistency": null,
+    "description": "TODO: user will describe the planted inconsistency here"
+  }
+]

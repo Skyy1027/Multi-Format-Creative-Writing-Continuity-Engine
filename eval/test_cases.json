@@ -1,0 +1,37 @@
+[
+  {
+    "id": "tc_01",
+    "draft_chapter_number": 4,
+    "draft_text_path": "data/sample_chapters/chapter_04.txt",
+    "expected_contradiction": true,
+    "description": "Kael uses Dawnfang (the enchanted longsword) but he traded it away to a merchant in chapter 3"
+  },
+  {
+    "id": "tc_02",
+    "draft_chapter_number": 4,
+    "draft_text_path": "data/sample_chapters/chapter_04.txt",
+    "expected_contradiction": true,
+    "description": "Kael and Liora arrive via 'western sea road' and 'coastal ferry' but chapter 3 says they left Ashenmoor heading east on the mountain road"
+  },
+  {
+    "id": "tc_03",
+    "draft_chapter_number": 4,
+    "draft_text_path": "data/sample_chapters/chapter_04.txt",
+    "expected_contradiction": true,
+    "description": "Kael uses his left arm freely to climb and fight two-handed, but chapter 2 established his left arm was badly injured (torn tendons) and chapter 3 has him in a sling"
+  },
+  {
+    "id": "tc_04",
+    "draft_chapter_number": 3,
+    "draft_text_path": "data/sample_chapters/chapter_03.txt",
+    "expected_contradiction": false,
+    "description": "Clean chapter — no contradictions with chapters 1-2, tests false positive rate"
+  },
+  {
+    "id": "tc_05",
+    "draft_chapter_number": 2,
+    "draft_text_path": "data/sample_chapters/chapter_02.txt",
+    "expected_contradiction": false,
+    "description": "Clean chapter — no contradictions with chapter 1, tests false positive rate"
+  }
+]
