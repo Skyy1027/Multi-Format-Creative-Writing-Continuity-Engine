@@ -1,4 +1,4 @@
-# Dynamic Narrative Continuity Engine
+# Multi-Format Creative Writing Continuity Engine
 
 A RAG-powered continuity verification system for creative writing. Uses Google Gemini and ChromaDB to detect plot holes, timeline errors, prop inconsistencies, and structural gaps across three domains: **novels**, **screenplays**, and **standup comedy**.
 
